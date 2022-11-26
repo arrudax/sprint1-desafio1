@@ -1,10 +1,9 @@
-import GlobalStyled from "./styles";
+import { HomePage } from "./pages/homePage";
 
 function App() {
   return (
     <>
-      <GlobalStyled />
-      <span>VOCÊ RECEBERÁ</span>
+      <HomePage />
     </>
   );
 }
